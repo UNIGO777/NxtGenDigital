@@ -1,0 +1,14 @@
+@font-face {
+    font-family: HeroBold;
+    src: url("./herobold.woff2");
+    font-style: normal;
+}
+
+.HeroBold{
+    font-family: HeroBold;
+    
+}
+
+/* From Uiverse.io by devkatyall */ 
+
+
