@@ -31,11 +31,11 @@ const Home = () => {
       <br /> <br /><br /><br />
       <Hero contactRef={contactRef} scrollToSection={scrollToSection} />
       <Creativity />
-      <Level />
+      <Level  />
       <ServiceAlert />
       <Services serviceRef={serviceRef } pricingRef={pricingRef} />
       <Work workRef={workRef}  />
-      <Pricing pricingRef={pricingRef} contactRef={contactRef} scrollToSection={scrollToSection}/>
+      {/* <Pricing pricingRef={pricingRef} contactRef={contactRef} scrollToSection={scrollToSection}/> */}
       <ContactUs contactRef={ contactRef } />
       <div><Fotter serviceRef={serviceRef} workRef={workRef} pricingRef={pricingRef} contactRef={contactRef} scrollToSection={scrollToSection}/></div>
 

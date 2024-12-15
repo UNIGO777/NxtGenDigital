@@ -86,7 +86,7 @@ const Works = ({workRef}) => {
                 Frontend: "https://github.com/UNIGO777/MrHotels",
                 Backend: "https://github.com/UNIGO777/MrHotels_backEnd"
             },
-            demositeLink: "https://mr-hotels.vercel.app",
+            
             images: MrhotelsImgs,
             demoVideo: MrhotelsVideo,
 
@@ -126,7 +126,7 @@ const Works = ({workRef}) => {
                 outcome: "RentalX provides a user-friendly interface and a streamlined car booking process, making it easy for users to find and rent vehicles that meet their needs. The platform's robust features and modern tech stack ensure a reliable and efficient service."
             },
             
-            demositeLink: "https://shri-shivam-cars.vercel.app",
+            
             images: RentalXImgs,
             demoVideo: RentalXVideo
         },

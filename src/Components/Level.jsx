@@ -9,7 +9,8 @@ const Level = () => {
       {List && (
         <>
           {/* First Rotated Section */}
-          <div className='h-10 bg-[#ffffff39] w-[104vw] -left-2 rotate-[5deg] absolute flex items-center'>
+          
+          <div className='h-8 bg-[#ffffff39] w-[104vw] -left-2 rotate-[5deg] absolute flex items-center '>
             <div className='scroll-container'>
               <ul className='scroll-content-right uppercase'>
                 {extendedList.map((item, index) => (
@@ -22,7 +23,7 @@ const Level = () => {
           </div>
 
           {/* Second Rotated and Scrollable Section */}
-          <div className='h-10 bg-[#ffffff3d] -left-2 w-[104vw] -rotate-[5deg] absolute flex items-center'>
+          <div className='h-8 bg-[#ffffff3d] -left-2 w-[104vw] -rotate-[5deg] absolute flex items-center'>
             <div className='scroll-container'>
               <ul className='scroll-content-left uppercase'>
                 {extendedList.map((item, index) => (
